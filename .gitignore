@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.cache/
+.DS_Store
+*.lock
+
+# Supplied trip data and generated visualizations with trip coordinates.
+*.track
+*.nodes
+*.arcs
+*.route
+Student folder/
+/results/**/*.html
+/results/**/*_route.json

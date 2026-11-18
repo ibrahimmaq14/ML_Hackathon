@@ -1,0 +1,15 @@
+{
+  "beta_m": 10.0,
+  "strength": 0.3,
+  "policy": {
+    "max_gap_seconds": 30.0,
+    "max_speed_mps": 55.0,
+    "distance_slack_m": 100.0,
+    "backwards_jitter_m": 20.0
+  },
+  "selection_metric": "mean of three trip-grouped CV candidate Macro F1 scores",
+  "classifier_cv_macro_f1": 0.9095170142998668,
+  "decoder_cv_macro_f1": 0.916825104876121,
+  "decoder_cv_top1": 0.8146480190421831,
+  "classifier_model_sha256": "969c6a142b02ecddd90f8375bdb1c9c101ba9f85fc58619dce8cad9845520bb3"
+}

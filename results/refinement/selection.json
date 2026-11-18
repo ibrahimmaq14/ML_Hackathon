@@ -1,0 +1,40 @@
+{
+  "model": "geometry_12",
+  "candidate_count": 12,
+  "context_features": false,
+  "weight_trips": false,
+  "beta_m": 5.0,
+  "strength": 0.3,
+  "folds": [
+    {
+      "top1": 0.6784564992529595,
+      "macro_f1": 0.8570243445772356
+    },
+    {
+      "top1": 0.9324977980565141,
+      "macro_f1": 0.9634357730998337
+    },
+    {
+      "top1": 0.872627674258109,
+      "macro_f1": 0.9450130418354032
+    }
+  ],
+  "cv_top1": 0.8278606571891941,
+  "cv_macro_f1": 0.9218243865041575,
+  "policy": {
+    "max_gap_seconds": 30.0,
+    "max_speed_mps": 55.0,
+    "distance_slack_m": 100.0,
+    "backwards_jitter_m": 20.0
+  },
+  "classifier_parameters": {
+    "learning_rate": 0.10667400467040687,
+    "max_iter": 175,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 160,
+    "l2_regularization": 0.133403418196077,
+    "max_bins": 63
+  },
+  "baseline_cv_top1": 0.8146480190421831,
+  "context_candidate_count": 12
+}

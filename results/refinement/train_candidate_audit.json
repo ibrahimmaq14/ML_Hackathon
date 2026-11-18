@@ -1,0 +1,1052 @@
+{
+  "observations": 208417,
+  "misses": {
+    "5": 25614,
+    "8": 19029,
+    "12": 15025,
+    "16": 13486,
+    "24": 11362
+  },
+  "trips": [
+    {
+      "trip": "00000001",
+      "observations": 1315,
+      "misses": {
+        "5": 10,
+        "8": 2,
+        "12": 1,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.3136882770356,
+      "median_nearest_distance_m": 3.7119444952319114
+    },
+    {
+      "trip": "00000002",
+      "observations": 7243,
+      "misses": {
+        "5": 849,
+        "8": 675,
+        "12": 631,
+        "16": 620,
+        "24": 593
+      },
+      "median_reference_distance_m": 5.767996157926151,
+      "median_nearest_distance_m": 5.387459890779311
+    },
+    {
+      "trip": "00000003",
+      "observations": 821,
+      "misses": {
+        "5": 20,
+        "8": 7,
+        "12": 2,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.447803209173344,
+      "median_nearest_distance_m": 3.3004173772302843
+    },
+    {
+      "trip": "00000004",
+      "observations": 1064,
+      "misses": {
+        "5": 51,
+        "8": 15,
+        "12": 5,
+        "16": 2,
+        "24": 0
+      },
+      "median_reference_distance_m": 8.488921790898342,
+      "median_nearest_distance_m": 7.320431760892198
+    },
+    {
+      "trip": "00000005",
+      "observations": 1045,
+      "misses": {
+        "5": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.517738620756977,
+      "median_nearest_distance_m": 4.43408998846488
+    },
+    {
+      "trip": "00000006",
+      "observations": 1450,
+      "misses": {
+        "5": 21,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.566046070169618,
+      "median_nearest_distance_m": 4.332748748754257
+    },
+    {
+      "trip": "00000008",
+      "observations": 3093,
+      "misses": {
+        "5": 128,
+        "8": 42,
+        "12": 24,
+        "16": 3,
+        "24": 0
+      },
+      "median_reference_distance_m": 7.788338783509495,
+      "median_nearest_distance_m": 6.254151770674219
+    },
+    {
+      "trip": "00000010",
+      "observations": 2711,
+      "misses": {
+        "5": 98,
+        "8": 38,
+        "12": 12,
+        "16": 1,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.189096811497558,
+      "median_nearest_distance_m": 3.470917651058623
+    },
+    {
+      "trip": "00000011",
+      "observations": 2828,
+      "misses": {
+        "5": 8,
+        "8": 1,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.110092629126339,
+      "median_nearest_distance_m": 5.024022666933543
+    },
+    {
+      "trip": "00000012",
+      "observations": 1608,
+      "misses": {
+        "5": 2,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.11821667280646,
+      "median_nearest_distance_m": 4.8733191022711
+    },
+    {
+      "trip": "00000013",
+      "observations": 2580,
+      "misses": {
+        "5": 8,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.021117719928833,
+      "median_nearest_distance_m": 3.5632133488261473
+    },
+    {
+      "trip": "00000014",
+      "observations": 448,
+      "misses": {
+        "5": 13,
+        "8": 5,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.728815295064862,
+      "median_nearest_distance_m": 4.113042763520613
+    },
+    {
+      "trip": "00000016",
+      "observations": 1305,
+      "misses": {
+        "5": 157,
+        "8": 50,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 6.757404267987019,
+      "median_nearest_distance_m": 4.746221675473195
+    },
+    {
+      "trip": "00000018",
+      "observations": 379,
+      "misses": {
+        "5": 10,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.350066771558595,
+      "median_nearest_distance_m": 2.908870301948212
+    },
+    {
+      "trip": "00000019",
+      "observations": 2354,
+      "misses": {
+        "5": 100,
+        "8": 53,
+        "12": 36,
+        "16": 28,
+        "24": 17
+      },
+      "median_reference_distance_m": 5.532926056582042,
+      "median_nearest_distance_m": 4.556747489243458
+    },
+    {
+      "trip": "00000020",
+      "observations": 2353,
+      "misses": {
+        "5": 42,
+        "8": 9,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.442753525953488,
+      "median_nearest_distance_m": 5.370218284293689
+    },
+    {
+      "trip": "00000021",
+      "observations": 15783,
+      "misses": {
+        "5": 2,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.440657506453407,
+      "median_nearest_distance_m": 4.416965927816154
+    },
+    {
+      "trip": "00000022",
+      "observations": 474,
+      "misses": {
+        "5": 17,
+        "8": 5,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.1404815180263626,
+      "median_nearest_distance_m": 3.796683972806368
+    },
+    {
+      "trip": "00000024",
+      "observations": 801,
+      "misses": {
+        "5": 2,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.138771751662295,
+      "median_nearest_distance_m": 3.7039947929324715
+    },
+    {
+      "trip": "00000025",
+      "observations": 1179,
+      "misses": {
+        "5": 11,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.115737797972752,
+      "median_nearest_distance_m": 3.9158920511819217
+    },
+    {
+      "trip": "00000026",
+      "observations": 361,
+      "misses": {
+        "5": 4,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.359010011618214,
+      "median_nearest_distance_m": 3.965081741788928
+    },
+    {
+      "trip": "00000027",
+      "observations": 694,
+      "misses": {
+        "5": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.268056141672244,
+      "median_nearest_distance_m": 4.028201702768813
+    },
+    {
+      "trip": "00000028",
+      "observations": 3565,
+      "misses": {
+        "5": 43,
+        "8": 22,
+        "12": 16,
+        "16": 13,
+        "24": 4
+      },
+      "median_reference_distance_m": 6.112001296665332,
+      "median_nearest_distance_m": 4.359016664812319
+    },
+    {
+      "trip": "00000029",
+      "observations": 733,
+      "misses": {
+        "5": 10,
+        "8": 1,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.437401062954093,
+      "median_nearest_distance_m": 3.4151283154724377
+    },
+    {
+      "trip": "00000031",
+      "observations": 4245,
+      "misses": {
+        "5": 19,
+        "8": 5,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.3044477173460685,
+      "median_nearest_distance_m": 3.887892989139235
+    },
+    {
+      "trip": "00000032",
+      "observations": 2464,
+      "misses": {
+        "5": 9,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.625660205922827,
+      "median_nearest_distance_m": 4.541567702427936
+    },
+    {
+      "trip": "00000033",
+      "observations": 5844,
+      "misses": {
+        "5": 3932,
+        "8": 3868,
+        "12": 3856,
+        "16": 3840,
+        "24": 3530
+      },
+      "median_reference_distance_m": 122.38322404284884,
+      "median_nearest_distance_m": 6.9935054447451375
+    },
+    {
+      "trip": "00000034",
+      "observations": 3614,
+      "misses": {
+        "5": 36,
+        "8": 3,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.709285973171433,
+      "median_nearest_distance_m": 5.299452616407528
+    },
+    {
+      "trip": "00000035",
+      "observations": 1643,
+      "misses": {
+        "5": 37,
+        "8": 6,
+        "12": 1,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.451033778114702,
+      "median_nearest_distance_m": 3.298358635629628
+    },
+    {
+      "trip": "00000036",
+      "observations": 1368,
+      "misses": {
+        "5": 15,
+        "8": 1,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.612823484219346,
+      "median_nearest_distance_m": 4.402810898330392
+    },
+    {
+      "trip": "00000037",
+      "observations": 677,
+      "misses": {
+        "5": 7,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.451090741737032,
+      "median_nearest_distance_m": 3.3313610023751856
+    },
+    {
+      "trip": "00000038",
+      "observations": 1287,
+      "misses": {
+        "5": 9,
+        "8": 1,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.879940533259975,
+      "median_nearest_distance_m": 4.428024396315453
+    },
+    {
+      "trip": "00000039",
+      "observations": 363,
+      "misses": {
+        "5": 1,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.2215266362212684,
+      "median_nearest_distance_m": 4.066784392460689
+    },
+    {
+      "trip": "00000041",
+      "observations": 1019,
+      "misses": {
+        "5": 15,
+        "8": 1,
+        "12": 1,
+        "16": 1,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.8089490017422065,
+      "median_nearest_distance_m": 3.2676510236037326
+    },
+    {
+      "trip": "00000042",
+      "observations": 7739,
+      "misses": {
+        "5": 32,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.751397073499126,
+      "median_nearest_distance_m": 3.554426760792822
+    },
+    {
+      "trip": "00000043",
+      "observations": 2322,
+      "misses": {
+        "5": 183,
+        "8": 99,
+        "12": 81,
+        "16": 72,
+        "24": 61
+      },
+      "median_reference_distance_m": 11.050635819942373,
+      "median_nearest_distance_m": 6.734389198834325
+    },
+    {
+      "trip": "00000044",
+      "observations": 546,
+      "misses": {
+        "5": 7,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.74612001129525,
+      "median_nearest_distance_m": 4.008999436365864
+    },
+    {
+      "trip": "00000045",
+      "observations": 640,
+      "misses": {
+        "5": 6,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.487635387903435,
+      "median_nearest_distance_m": 4.277108808317527
+    },
+    {
+      "trip": "00000046",
+      "observations": 1401,
+      "misses": {
+        "5": 5,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.915000788934827,
+      "median_nearest_distance_m": 5.8470251146710215
+    },
+    {
+      "trip": "00000047",
+      "observations": 1272,
+      "misses": {
+        "5": 67,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.343827316926683,
+      "median_nearest_distance_m": 3.8692748033206557
+    },
+    {
+      "trip": "00000048",
+      "observations": 1240,
+      "misses": {
+        "5": 7,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 7.081181175211414,
+      "median_nearest_distance_m": 6.919156430901316
+    },
+    {
+      "trip": "00000050",
+      "observations": 518,
+      "misses": {
+        "5": 5,
+        "8": 1,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.236157909957412,
+      "median_nearest_distance_m": 5.058713736814109
+    },
+    {
+      "trip": "00000051",
+      "observations": 984,
+      "misses": {
+        "5": 2,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.327324695158978,
+      "median_nearest_distance_m": 4.977382118172151
+    },
+    {
+      "trip": "00000053",
+      "observations": 1304,
+      "misses": {
+        "5": 22,
+        "8": 13,
+        "12": 3,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.222479313279585,
+      "median_nearest_distance_m": 3.4439204706665647
+    },
+    {
+      "trip": "00000054",
+      "observations": 19313,
+      "misses": {
+        "5": 17584,
+        "8": 13198,
+        "12": 9797,
+        "16": 8472,
+        "24": 7083
+      },
+      "median_reference_distance_m": 140.00506014025444,
+      "median_nearest_distance_m": 83.75528378003695
+    },
+    {
+      "trip": "00000055",
+      "observations": 2472,
+      "misses": {
+        "5": 0,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.830289762364296,
+      "median_nearest_distance_m": 3.4685892938484244
+    },
+    {
+      "trip": "00000057",
+      "observations": 1645,
+      "misses": {
+        "5": 30,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 6.140275837593475,
+      "median_nearest_distance_m": 3.873908829711227
+    },
+    {
+      "trip": "00000058",
+      "observations": 599,
+      "misses": {
+        "5": 41,
+        "8": 18,
+        "12": 5,
+        "16": 1,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.4204399014158335,
+      "median_nearest_distance_m": 2.5355090207596653
+    },
+    {
+      "trip": "00000060",
+      "observations": 854,
+      "misses": {
+        "5": 36,
+        "8": 17,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.204623002383337,
+      "median_nearest_distance_m": 4.5807315504668935
+    },
+    {
+      "trip": "00000061",
+      "observations": 1430,
+      "misses": {
+        "5": 226,
+        "8": 148,
+        "12": 95,
+        "16": 67,
+        "24": 26
+      },
+      "median_reference_distance_m": 5.76740729297522,
+      "median_nearest_distance_m": 4.3671296231801895
+    },
+    {
+      "trip": "00000062",
+      "observations": 3378,
+      "misses": {
+        "5": 34,
+        "8": 3,
+        "12": 2,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.745886852552292,
+      "median_nearest_distance_m": 3.915432960687303
+    },
+    {
+      "trip": "00000063",
+      "observations": 2781,
+      "misses": {
+        "5": 16,
+        "8": 1,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.498575362356943,
+      "median_nearest_distance_m": 4.349876586470128
+    },
+    {
+      "trip": "00000064",
+      "observations": 2093,
+      "misses": {
+        "5": 17,
+        "8": 2,
+        "12": 2,
+        "16": 1,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.793701925335935,
+      "median_nearest_distance_m": 4.372500295441979
+    },
+    {
+      "trip": "00000066",
+      "observations": 4325,
+      "misses": {
+        "5": 197,
+        "8": 187,
+        "12": 177,
+        "16": 164,
+        "24": 0
+      },
+      "median_reference_distance_m": 6.5880357785528645,
+      "median_nearest_distance_m": 6.184776735545749
+    },
+    {
+      "trip": "00000068",
+      "observations": 747,
+      "misses": {
+        "5": 10,
+        "8": 2,
+        "12": 1,
+        "16": 1,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.962854107567714,
+      "median_nearest_distance_m": 3.9282404451963693
+    },
+    {
+      "trip": "00000069",
+      "observations": 2067,
+      "misses": {
+        "5": 28,
+        "8": 9,
+        "12": 4,
+        "16": 3,
+        "24": 1
+      },
+      "median_reference_distance_m": 4.887927359224167,
+      "median_nearest_distance_m": 4.518185247708876
+    },
+    {
+      "trip": "00000070",
+      "observations": 2076,
+      "misses": {
+        "5": 67,
+        "8": 18,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.200959588836827,
+      "median_nearest_distance_m": 3.9280689077997435
+    },
+    {
+      "trip": "00000071",
+      "observations": 850,
+      "misses": {
+        "5": 9,
+        "8": 2,
+        "12": 1,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.9996342184223836,
+      "median_nearest_distance_m": 3.118578495623047
+    },
+    {
+      "trip": "00000072",
+      "observations": 969,
+      "misses": {
+        "5": 168,
+        "8": 151,
+        "12": 127,
+        "16": 93,
+        "24": 9
+      },
+      "median_reference_distance_m": 5.713580252836964,
+      "median_nearest_distance_m": 4.5253254072369575
+    },
+    {
+      "trip": "00000074",
+      "observations": 1929,
+      "misses": {
+        "5": 25,
+        "8": 3,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.036260663416652,
+      "median_nearest_distance_m": 3.9528670411086715
+    },
+    {
+      "trip": "00000075",
+      "observations": 1628,
+      "misses": {
+        "5": 11,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.116523358617776,
+      "median_nearest_distance_m": 3.999432120622341
+    },
+    {
+      "trip": "00000078",
+      "observations": 2909,
+      "misses": {
+        "5": 21,
+        "8": 4,
+        "12": 2,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.4008050455517775,
+      "median_nearest_distance_m": 4.295647059205782
+    },
+    {
+      "trip": "00000079",
+      "observations": 689,
+      "misses": {
+        "5": 15,
+        "8": 4,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.263020537282313,
+      "median_nearest_distance_m": 3.466254286895305
+    },
+    {
+      "trip": "00000080",
+      "observations": 2510,
+      "misses": {
+        "5": 57,
+        "8": 10,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 7.385950190101631,
+      "median_nearest_distance_m": 5.913142032303851
+    },
+    {
+      "trip": "00000081",
+      "observations": 3224,
+      "misses": {
+        "5": 122,
+        "8": 79,
+        "12": 69,
+        "16": 65,
+        "24": 15
+      },
+      "median_reference_distance_m": 4.546255417270647,
+      "median_nearest_distance_m": 4.2738647301849895
+    },
+    {
+      "trip": "00000082",
+      "observations": 4268,
+      "misses": {
+        "5": 45,
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.99309984160957,
+      "median_nearest_distance_m": 3.364288807353261
+    },
+    {
+      "trip": "00000083",
+      "observations": 1507,
+      "misses": {
+        "5": 37,
+        "8": 5,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.159366613272362,
+      "median_nearest_distance_m": 3.771338432744445
+    },
+    {
+      "trip": "00000084",
+      "observations": 16031,
+      "misses": {
+        "5": 391,
+        "8": 100,
+        "12": 12,
+        "16": 3,
+        "24": 0
+      },
+      "median_reference_distance_m": 6.5790058277822565,
+      "median_nearest_distance_m": 6.206962864147375
+    },
+    {
+      "trip": "00000085",
+      "observations": 1092,
+      "misses": {
+        "5": 23,
+        "8": 5,
+        "12": 1,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.337426026963302,
+      "median_nearest_distance_m": 4.054274643632221
+    },
+    {
+      "trip": "00000086",
+      "observations": 4143,
+      "misses": {
+        "5": 14,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.168107036440498,
+      "median_nearest_distance_m": 4.009626401952736
+    },
+    {
+      "trip": "00000088",
+      "observations": 876,
+      "misses": {
+        "5": 12,
+        "8": 1,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.008459580619297,
+      "median_nearest_distance_m": 3.3317215963993965
+    },
+    {
+      "trip": "00000089",
+      "observations": 1228,
+      "misses": {
+        "5": 85,
+        "8": 30,
+        "12": 12,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.889186335653295,
+      "median_nearest_distance_m": 3.4867350589046833
+    },
+    {
+      "trip": "00000090",
+      "observations": 536,
+      "misses": {
+        "5": 11,
+        "8": 3,
+        "12": 3,
+        "16": 1,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.643195796107451,
+      "median_nearest_distance_m": 3.7846182113822664
+    },
+    {
+      "trip": "00000092",
+      "observations": 7892,
+      "misses": {
+        "5": 47,
+        "8": 5,
+        "12": 1,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.301820882746966,
+      "median_nearest_distance_m": 4.14734345249234
+    },
+    {
+      "trip": "00000093",
+      "observations": 1211,
+      "misses": {
+        "5": 86,
+        "8": 59,
+        "12": 41,
+        "16": 33,
+        "24": 23
+      },
+      "median_reference_distance_m": 6.234891496613572,
+      "median_nearest_distance_m": 4.349756844259775
+    },
+    {
+      "trip": "00000095",
+      "observations": 1551,
+      "misses": {
+        "5": 28,
+        "8": 2,
+        "12": 1,
+        "16": 1,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.975989591788388,
+      "median_nearest_distance_m": 3.7058613128188735
+    },
+    {
+      "trip": "00000096",
+      "observations": 3271,
+      "misses": {
+        "5": 28,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 4.462432542588525,
+      "median_nearest_distance_m": 4.173600433719261
+    },
+    {
+      "trip": "00000097",
+      "observations": 1740,
+      "misses": {
+        "5": 7,
+        "8": 2,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 3.6271882150145482,
+      "median_nearest_distance_m": 3.5804793466182803
+    },
+    {
+      "trip": "00000098",
+      "observations": 5584,
+      "misses": {
+        "5": 33,
+        "8": 17,
+        "12": 1,
+        "16": 0,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.1464056874928605,
+      "median_nearest_distance_m": 4.783003470667872
+    },
+    {
+      "trip": "00000099",
+      "observations": 2322,
+      "misses": {
+        "5": 31,
+        "8": 5,
+        "12": 2,
+        "16": 1,
+        "24": 0
+      },
+      "median_reference_distance_m": 5.612833952834077,
+      "median_nearest_distance_m": 5.294241311278765
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "selection_metric": "mean trip-grouped CV candidate Macro F1",
+  "cv_macro_f1": {
+    "Original LR full data": 0.8609721816580214,
+    "Geometry LR": 0.889807123215172,
+    "Geometry boosting": 0.9084069979994543,
+    "Context MLP": 0.8939654760455241,
+    "Context GraphSAGE": 0.8965022814302807
+  },
+  "chosen_model": "Geometry boosting",
+  "seed": 24,
+  "folds": 3,
+  "sampling": "all training observations",
+  "student_test": {
+    "top1": 0.902348643006263,
+    "macro_f1": 0.9439108722385426,
+    "candidate_miss": 0.01696242171189979,
+    "binary_log_loss": 0.09837154589734033
+  },
+  "student_test_per_trip": [
+    {
+      "trip": "00000000",
+      "observations": 2503,
+      "top1": 0.9528565721134639,
+      "macro_f1": 0.9728300716523441,
+      "candidate_miss": 0.0075908909308829405,
+      "binary_log_loss": 0.04083175568879252
+    },
+    {
+      "trip": "00000007",
+      "observations": 1354,
+      "top1": 0.9320531757754801,
+      "macro_f1": 0.9579715442379053,
+      "candidate_miss": 0.0014771048744460858,
+      "binary_log_loss": 0.0545431177462854
+    },
+    {
+      "trip": "00000009",
+      "observations": 1049,
+      "top1": 0.8760724499523356,
+      "macro_f1": 0.9354541315196925,
+      "candidate_miss": 0.044804575786463297,
+      "binary_log_loss": 0.11064265558447646
+    },
+    {
+      "trip": "00000040",
+      "observations": 2995,
+      "top1": 0.9472454090150251,
+      "macro_f1": 0.9714617582796634,
+      "candidate_miss": 0.014691151919866445,
+      "binary_log_loss": 0.04676255003862416
+    },
+    {
+      "trip": "00000052",
+      "observations": 262,
+      "top1": 0.9694656488549618,
+      "macro_f1": 0.9809160305343512,
+      "candidate_miss": 0.0,
+      "binary_log_loss": 0.04720445096180895
+    },
+    {
+      "trip": "00000056",
+      "observations": 3958,
+      "top1": 0.9161192521475493,
+      "macro_f1": 0.9509178040608204,
+      "candidate_miss": 0.011369378473976757,
+      "binary_log_loss": 0.11170465908694473
+    },
+    {
+      "trip": "00000065",
+      "observations": 768,
+      "top1": 0.8580729166666666,
+      "macro_f1": 0.9164190977923017,
+      "candidate_miss": 0.018229166666666668,
+      "binary_log_loss": 0.1881003069390248
+    },
+    {
+      "trip": "00000076",
+      "observations": 1486,
+      "top1": 0.8950201884253028,
+      "macro_f1": 0.9481858685504942,
+      "candidate_miss": 0.047106325706594884,
+      "binary_log_loss": 0.0879458868278496
+    },
+    {
+      "trip": "00000077",
+      "observations": 3911,
+      "top1": 0.8235745333674253,
+      "macro_f1": 0.8942669697045689,
+      "candidate_miss": 0.016619790334952696,
+      "binary_log_loss": 0.1609942698497353
+    },
+    {
+      "trip": "00000091",
+      "observations": 874,
+      "top1": 0.9107551487414187,
+      "macro_f1": 0.950611362678115,
+      "candidate_miss": 0.021739130434782608,
+      "binary_log_loss": 0.10679147671159685
+    }
+  ]
+}

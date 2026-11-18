@@ -1,0 +1,13 @@
+{
+  "trial_number": 3,
+  "parameters": {
+    "learning_rate": 0.10667400467040687,
+    "max_iter": 175,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 160,
+    "l2_regularization": 0.133403418196077,
+    "max_bins": 63
+  },
+  "cv_macro_f1": 0.9095170142998668,
+  "training_fingerprint": "0eb739dfeb4b05def43eb5c629f09a656e248ec4547345939ceea3fbd2938e60"
+}

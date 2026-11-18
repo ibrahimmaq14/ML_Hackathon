@@ -1,0 +1,14 @@
+{
+  "breaks": [
+    {
+      "observation": 3846,
+      "reason": "unreachable_candidates"
+    },
+    {
+      "observation": 3851,
+      "reason": "unreachable_candidates"
+    }
+  ],
+  "decode_seconds": 0.024113667008350603,
+  "inference_seconds": 0.2519722919969354
+}

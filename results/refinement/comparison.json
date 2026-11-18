@@ -1,0 +1,205 @@
+{
+  "selection": {
+    "model": "geometry_12",
+    "candidate_count": 12,
+    "context_features": false,
+    "weight_trips": false,
+    "beta_m": 5.0,
+    "strength": 0.3,
+    "folds": [
+      {
+        "top1": 0.6784564992529595,
+        "macro_f1": 0.8570243445772356
+      },
+      {
+        "top1": 0.9324977980565141,
+        "macro_f1": 0.9634357730998337
+      },
+      {
+        "top1": 0.872627674258109,
+        "macro_f1": 0.9450130418354032
+      }
+    ],
+    "cv_top1": 0.8278606571891941,
+    "cv_macro_f1": 0.9218243865041575,
+    "policy": {
+      "max_gap_seconds": 30.0,
+      "max_speed_mps": 55.0,
+      "distance_slack_m": 100.0,
+      "backwards_jitter_m": 20.0
+    },
+    "classifier_parameters": {
+      "learning_rate": 0.10667400467040687,
+      "max_iter": 175,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 160,
+      "l2_regularization": 0.133403418196077,
+      "max_bins": 63
+    },
+    "baseline_cv_top1": 0.8146480190421831,
+    "context_candidate_count": 12
+  },
+  "previous": {
+    "top1": 0.9261482254697286,
+    "macro_f1": 0.9588811047578429,
+    "observations": 19160,
+    "eligible_transitions": 19148,
+    "connected_transitions": 19122,
+    "route_continuity": 0.9986421558387298,
+    "excluded_time_gaps": 2,
+    "mean_trip_accuracy": 0.9268048899324757,
+    "mean_arc_sequence_similarity": 0.781189605117433
+  },
+  "refined": {
+    "top1": 0.9401356993736952,
+    "route_continuity": 0.9996866513473992,
+    "connected_transitions": 19142,
+    "eligible_transitions": 19148,
+    "mean_trip_accuracy": 0.9434692812419131,
+    "mean_arc_sequence_similarity": 0.8436979423530584,
+    "candidate_recall": 0.9987995824634656,
+    "observations": 19160
+  },
+  "per_trip": [
+    {
+      "trip": "00000000",
+      "observations": 2503,
+      "correct": 2429,
+      "classifier_top1": 0.9564522572912505,
+      "top1": 0.9704354774270875,
+      "macro_f1": 0.9841921646118904,
+      "eligible_transitions": 2502,
+      "connected_transitions": 2500,
+      "route_continuity": 0.9992006394884093,
+      "excluded_time_gaps": 0,
+      "arc_sequence_similarity": 0.8952879581151832,
+      "previous_top1": 0.9648421893727527
+    },
+    {
+      "trip": "00000007",
+      "observations": 1354,
+      "correct": 1303,
+      "classifier_top1": 0.9446085672082718,
+      "top1": 0.9623338257016248,
+      "macro_f1": 0.9794548140190681,
+      "eligible_transitions": 1353,
+      "connected_transitions": 1353,
+      "route_continuity": 1.0,
+      "excluded_time_gaps": 0,
+      "arc_sequence_similarity": 0.967741935483871,
+      "previous_top1": 0.9623338257016248
+    },
+    {
+      "trip": "00000009",
+      "observations": 1049,
+      "correct": 962,
+      "classifier_top1": 0.8817921830314586,
+      "top1": 0.9170638703527169,
+      "macro_f1": 0.9564498862509552,
+      "eligible_transitions": 1048,
+      "connected_transitions": 1047,
+      "route_continuity": 0.9990458015267175,
+      "excluded_time_gaps": 0,
+      "arc_sequence_similarity": 0.8158508158508159,
+      "previous_top1": 0.886558627264061
+    },
+    {
+      "trip": "00000040",
+      "observations": 2995,
+      "correct": 2859,
+      "classifier_top1": 0.9459098497495826,
+      "top1": 0.9545909849749583,
+      "macro_f1": 0.9752314463499773,
+      "eligible_transitions": 2994,
+      "connected_transitions": 2993,
+      "route_continuity": 0.9996659986639946,
+      "excluded_time_gaps": 0,
+      "arc_sequence_similarity": 0.8885448916408669,
+      "previous_top1": 0.9462437395659432
+    },
+    {
+      "trip": "00000052",
+      "observations": 262,
+      "correct": 262,
+      "classifier_top1": 0.9694656488549618,
+      "top1": 1.0,
+      "macro_f1": 1.0,
+      "eligible_transitions": 261,
+      "connected_transitions": 261,
+      "route_continuity": 1.0,
+      "excluded_time_gaps": 0,
+      "arc_sequence_similarity": 0.8631578947368421,
+      "previous_top1": 0.9961832061068703
+    },
+    {
+      "trip": "00000056",
+      "observations": 3958,
+      "correct": 3799,
+      "classifier_top1": 0.9161192521475493,
+      "top1": 0.9598281960586155,
+      "macro_f1": 0.978752756295888,
+      "eligible_transitions": 3957,
+      "connected_transitions": 3955,
+      "route_continuity": 0.9994945665908517,
+      "excluded_time_gaps": 0,
+      "arc_sequence_similarity": 0.8631897203325775,
+      "previous_top1": 0.9507326932794341
+    },
+    {
+      "trip": "00000065",
+      "observations": 768,
+      "correct": 677,
+      "classifier_top1": 0.84765625,
+      "top1": 0.8815104166666666,
+      "macro_f1": 0.9353693181818181,
+      "eligible_transitions": 766,
+      "connected_transitions": 766,
+      "route_continuity": 1.0,
+      "excluded_time_gaps": 1,
+      "arc_sequence_similarity": 0.8758620689655172,
+      "previous_top1": 0.8645833333333334
+    },
+    {
+      "trip": "00000076",
+      "observations": 1486,
+      "correct": 1406,
+      "classifier_top1": 0.9078061911170928,
+      "top1": 0.946164199192463,
+      "macro_f1": 0.9711591425100201,
+      "eligible_transitions": 1484,
+      "connected_transitions": 1484,
+      "route_continuity": 1.0,
+      "excluded_time_gaps": 1,
+      "arc_sequence_similarity": 0.8048128342245989,
+      "previous_top1": 0.905114401076716
+    },
+    {
+      "trip": "00000077",
+      "observations": 3911,
+      "correct": 3484,
+      "classifier_top1": 0.811557146509844,
+      "top1": 0.8908207619534646,
+      "macro_f1": 0.9404476883382534,
+      "eligible_transitions": 3910,
+      "connected_transitions": 3910,
+      "route_continuity": 1.0,
+      "excluded_time_gaps": 0,
+      "arc_sequence_similarity": 0.7039106145251397,
+      "previous_top1": 0.8772692406034263
+    },
+    {
+      "trip": "00000091",
+      "observations": 874,
+      "correct": 832,
+      "classifier_top1": 0.9107551487414187,
+      "top1": 0.9519450800915332,
+      "macro_f1": 0.9737882255044727,
+      "eligible_transitions": 873,
+      "connected_transitions": 873,
+      "route_continuity": 1.0,
+      "excluded_time_gaps": 0,
+      "arc_sequence_similarity": 0.7586206896551724,
+      "previous_top1": 0.914187643020595
+    }
+  ]
+}
