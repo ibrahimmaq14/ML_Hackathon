@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PathSnap · Route inspector</title><link rel="stylesheet" href="style.css">
+<header><b>⤴ &nbsp; PathSnap</b><span>ROUTE LAB &nbsp; / &nbsp; EVALUATOR</span></header>
+<main><aside><small>01 &nbsp; / &nbsp; TRIP WORKSPACE</small><h1>Route inspector</h1><p>Match a recorded GPS trace to the directed road network.</p>
+<label for="trip">Evaluation trip</label><select id="trip"></select><button id="run" disabled>Reconstruct route →</button><p role="status" id="status">Connecting to inference server…</p>
+<dl><dt>Reference agreement</dt><dd id="accuracy">—</dd><dt>GPS readings</dt><dd id="count">—</dd><dt>Connected sections</dt><dd id="sections">—</dd><dt>Inference time</dt><dd id="runtime">—</dd></dl><footer>Histogram boosting · HMM / Viterbi</footer></aside>
+<section><div class="bar"><div><small>02 &nbsp; / &nbsp; SPATIAL VIEW</small><h2>Trajectory map</h2></div><div><button id="minus" aria-label="Zoom out">−</button><button id="plus" aria-label="Zoom in">+</button><button id="fit">Fit</button></div></div>
+<div class="plot"><svg id="map" viewBox="0 0 900 600" aria-label="Map of observed GPS and reconstructed road sections"><g id="drawing"></g></svg><div id="empty">Choose a trip and reconstruct its route</div><div class="north">↑ N</div></div>
+<div class="legend"><label><input id="networkToggle" type="checkbox" checked> Local roads</label><label><input id="roadToggle" type="checkbox" checked> Decoded road</label><label><input id="gpsToggle" type="checkbox" checked> GPS observations</label><span>Drag to pan · Local projection</span></div></section></main>
+<script src="app.js"></script></html>

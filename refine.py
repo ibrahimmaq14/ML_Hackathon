@@ -2,7 +2,7 @@
 import numpy as np
 
 from decoder import RoadNetwork, decode_route, transition_geometry
-from improve import extended_features
+from features import extended_features
 from roads import candidates, distances, load_trip, project
 
 WIDTH = 12

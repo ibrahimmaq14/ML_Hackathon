@@ -1,0 +1,72 @@
+[
+  {
+    "trip": "00000000",
+    "observations": 2503,
+    "accuracy": 0.9704354774270875,
+    "sections": 3,
+    "inference_seconds": 0.9187109000049531
+  },
+  {
+    "trip": "00000007",
+    "observations": 1354,
+    "accuracy": 0.9623338257016248,
+    "sections": 1,
+    "inference_seconds": 0.4967239999969024
+  },
+  {
+    "trip": "00000009",
+    "observations": 1049,
+    "accuracy": 0.9170638703527169,
+    "sections": 2,
+    "inference_seconds": 0.42541130000608973
+  },
+  {
+    "trip": "00000040",
+    "observations": 2995,
+    "accuracy": 0.9545909849749583,
+    "sections": 2,
+    "inference_seconds": 1.0375552000186872
+  },
+  {
+    "trip": "00000052",
+    "observations": 262,
+    "accuracy": 1.0,
+    "sections": 1,
+    "inference_seconds": 0.09249710000585765
+  },
+  {
+    "trip": "00000056",
+    "observations": 3958,
+    "accuracy": 0.9598281960586155,
+    "sections": 3,
+    "inference_seconds": 1.2485760000126902
+  },
+  {
+    "trip": "00000065",
+    "observations": 768,
+    "accuracy": 0.8815104166666666,
+    "sections": 2,
+    "inference_seconds": 0.1755266000109259
+  },
+  {
+    "trip": "00000076",
+    "observations": 1486,
+    "accuracy": 0.946164199192463,
+    "sections": 2,
+    "inference_seconds": 0.872703700006241
+  },
+  {
+    "trip": "00000077",
+    "observations": 3911,
+    "accuracy": 0.8908207619534646,
+    "sections": 1,
+    "inference_seconds": 1.3177074999839533
+  },
+  {
+    "trip": "00000091",
+    "observations": 874,
+    "accuracy": 0.9519450800915332,
+    "sections": 1,
+    "inference_seconds": 0.28749009998864494
+  }
+]

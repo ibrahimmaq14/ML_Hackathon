@@ -2,7 +2,7 @@
 
 PathSnap matches noisy GPS readings to directed road segments with Gradient Boosting and reconstructs connected routes with HMM/Viterbi. The current pipeline reached **94.01% pointwise accuracy** against inferred reference labels and **99.97% route continuity** across ten student-test trips. [Current results](results/refinement/comparison.json)
 
-This repository includes model training, evaluation, and route reconstruction. The two-laptop demo and technical report are pending. Use the supplied dataset locally to reproduce the experiments and generate maps.
+This repository includes training, evaluation, route reconstruction, a FastAPI backend and a separate evaluator UI. See [two-laptop launch and verification](DEMO.md) and the [development report](results/demo/PathSnap-report.pdf). Use the supplied dataset locally to reproduce the experiments and generate maps.
 
 Open `01_trip_baseline.ipynb` to work through trip 00000001. The executed notebook saves its map to `results/trip_00000001.html`. Open the HTML in a browser with internet access for the map tiles and Leaflet libraries. Purple markers show ambiguous errors. Orange lines are the independent nearest-road predictions.
 
